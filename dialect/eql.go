@@ -32,4 +32,8 @@ func (*EQLDialect) Name() string {
 
 var eqlKeywords = []string{
 	"GET", "FROM", "WHERE", "AND", "OR", "ANDNOT", "GROUP BY", "ORDER BY", "PAGE", "LOCK", "FORMAT",
-	"SUBSCRIBE", "UNSUBSCRIBE", "SET", "IN", "INSERT", "
+	"SUBSCRIBE", "UNSUBSCRIBE", "SET", "IN", "INSERT", "DELETE",
+	"TRANSACTION_START", "TRANSACTION_COMMIT", "TRANSACTION_ROLLBACK",
+	"AS", "ASC", "DESC", "READ", "WRITE",
+	"LIKE", // Operator as keyword for easier handling in lexer initially
+}
