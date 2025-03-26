@@ -1,0 +1,6 @@
+# Set to true to use lowercase keywords instead of uppercase.
+lowercaseKeywords: false
+connections:
+  - alias: dsn_ecomet
+    driver: ecomet
+    dataSourceName: wss://127.0.0.1:13306/websocket
