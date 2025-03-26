@@ -32,8 +32,6 @@ ecomet-sqls aims to provide advanced intelligence for you to edit ecomet queries
 
 #### CodeAction
 
-![code_actions](https://github.com/sqls-server/sqls.vim/blob/master/imgs/sqls_vim_demo.gif)
-
 - [x] Execute Query
 - [x] Switch Connection(Selected Database Connection)
 - [x] Switch Database
