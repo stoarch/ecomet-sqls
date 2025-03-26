@@ -1,7 +1,7 @@
 # ecomet-sqls: Ecomet DB Query Language Server
 
 >[ecomet db](https://github.com/vzroman/ecomet)
-
+>[ecomet query language](https://github.com/stoarch/ecomet-sqls/blob/master/ecomet-query-language-en.md)
 
 An implementation of the Language Server Protocol Ecomet Query Language.
 
