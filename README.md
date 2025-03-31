@@ -78,7 +78,7 @@ Whichever method you choose, the settings you make will remain the same.
 lowercaseKeywords: false
 connections:
   - alias: dsn_ecomet
-    driver: ecomet
+    driver: eql 
     dataSourceName: wss://127.0.0.1:13306/websocket
 ```
 
